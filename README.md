@@ -1,73 +1,89 @@
-<h1 align="center">📬 Portfolio Contact Form</h1>
+<h1 align="center">Portfolio Contact Form</h1>
 
 <p align="center">
-  A sleek and simple contact form built with <strong>Flask</strong> and <strong>HTML/CSS</strong>, deployed on <strong>Render</strong>.
+  A sleek and modern contact form built using <strong>Flask</strong> and <strong>HTML/CSS</strong>, deployed for free on <strong>Render</strong>.
 </p>
 
 <p align="center">
   <a href="https://portfolio-contact-form-2.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/Live-Demo-success?style=flat-square&logo=render&logoColor=white" alt="Live Demo">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-brightgreen?style=for-the-badge&logo=render&logoColor=white">
   </a>
-  <img src="https://img.shields.io/badge/Made%20with-Flask-blue?style=flat-square&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Hosted%20on-Render-007BFF?style=flat-square&logo=render&logoColor=white">
+  <img src="https://img.shields.io/badge/Flask-Backend-blue?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML%20%26%20CSS-Frontend-orange?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/Deployed%20on-Render-007BFF?style=for-the-badge&logo=render&logoColor=white">
 </p>
 
-<br>
+---
+
+## 🌐 Preview
 
 <p align="center">
   <a href="https://portfolio-contact-form-2.onrender.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/saviottt/portfolio-contact-form/main/screenshot.png" alt="Website Screenshot" width="100%">
+    <img src="https://raw.githubusercontent.com/saviottt/portfolio-contact-form/main/Screenshot.png" alt="Website Screenshot" width="80%" style="border-radius: 15px; transition: 0.3s ease;">
   </a>
 </p>
 
----
-
-## 🚀 Live Demo
-
-👉 [Click here to visit the live website](https://portfolio-contact-form-2.onrender.com)
+> ✨ Click the image above to visit the live version
 
 ---
 
-## 📂 Project Structure
+## 🚀 Features
 
+✅ Fully working contact form  
+✅ Responsive on all devices  
+✅ Clean UI with animations  
+✅ Easy Render deployment  
+✅ Lightweight & fast load  
+
+---
+
+## 🧱 Tech Stack
+
+| Layer       | Technologies                      |
+|-------------|-----------------------------------|
+| 💻 Frontend | HTML5, CSS3                       |
+| ⚙️ Backend  | Python (Flask)                    |
+| ☁️ Hosting | Render (Free Tier, US-West)       |
+
+---
+
+## 🛠 Deployment Details
+
+```bash
+# Build Command:
+pip install -r requirements.txt
+
+# Start Command:
+gunicorn app:app
+📍 Region: Oregon (US West)
+💸 Tier: Free
+🔗 Hosting: Render.com
+
+📁 Project Structure
 portfolio-contact-form/
-├── app.py # Flask backend logic
+├── app.py               # Flask backend logic
 ├── templates/
-│ └── index.html # Frontend contact form
-├── requirements.txt # Python dependencies
-
-yaml
+│   └── index.html       # Frontend form
+├── requirements.txt     # Dependencies
+└── README.md            # This file ✨
+👨‍💻 How to Run Locally
+bash
 Copy
 Edit
+# Clone the repo
+git clone https://github.com/saviottt/portfolio-contact-form.git
+cd portfolio-contact-form
 
----
+# Install packages
+pip install -r requirements.txt
 
-## 🛠 Technologies Used
+# Run app
+python app.py
+🔗 Open http://localhost:5000 in your browser.
 
-- 🐍 Python (Flask)
-- 🌐 HTML5 & CSS3
-- ☁️ Render (Deployment)
+👨‍🎓 Author
+Don Savio Thomas
+🎓 BTech IT @ Viswajyothi College
+💻 Passionate Flask & Web Dev Enthusiast
+🌍 GitHub
 
----
-
-## ⚙️ Deployment Details
-
-- **Build Command**: `pip install -r requirements.txt`
-- **Start Command**: `gunicorn app:app`
-- **Hosted On**: Render (Free Tier)
-- **Region**: Oregon (US West)
-
----
-
-## 🧑‍💻 Author
-
-**Don Savio Thomas**  
-📫 [GitHub – saviottt](https://github.com/saviottt)
-
----
-
-## 🖼 Adding the Screenshot
-
-> Replace the image URL with your own if needed:
-```md
-<img src="https://raw.githubusercontent.com/saviottt/portfolio-contact-form/main/screenshot.png" alt="Website Screenshot">
